@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Buon giorno</title>
+</head>
+<body>
+    <!-- ヘッダー作る時をいつもこれ! → header>a.logo+nav>ul>(li>a)*5 -->
+    <header>
+        <a href="/" class="logo">LOGO</a>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#gellery">GALLERY</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#faq">FaQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main>section#*5 -->
+    <main>
+        <section id="mainVisual">
+            <h1>Buon giorno</h1>
+        </section>
+
+        <section id="about">
+            <img src="./img/anda-ambrosini-UOEB1ztsDMo-unsplash.jpg" alt="">
+            <!-- .about_box>h2+p -->
+            <div class="about_box">
+                <h2>ABOUT</h2>
+                <!-- loremは -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore expedita aliquam dignissimos eaque molestiae quos obcaecati tenetur ex, sed officia, dolor repellat eos aut ducimus nemo aliquid iure magni cupiditate nesciunt cumque voluptatum perferendis. Perspiciatis accusamus commodi vitae illo ratione, natus molestiae fugit quos. Adipisci ad assumenda laboriosam atque non.
+                </p>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <div class="gallery_cards">
+                <!-- (.item>img)*9 -->
+                <div class="item"><img src="./img/luisa-brimble-vIm26fn_QKg-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/calum-lewis-rPkgYDh2bmo-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/chad-montano-MqT0asuoIcU-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/ella-olsson-KPDbRyFOTnE-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/alexander-mils-aiIANaSK9DQ-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/chad-montano-MqT0asuoIcU-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/jakub-kapusnak-tEVisOXz26Y-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/cloris-ying-rmdo8r9iGfw-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="./img/nerfee-mirandilla-o1EDsUFmuXQ-unsplash.jpg" alt=""></div>
+
+            </div>
+        </section>
+
+        <section id="info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179094.73272925883!2d9.037648910709462!3d45.46264823810021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2z44Kk44K_44Oq44KiIOODn-ODqeODjg!5e0!3m2!1sja!2sjp!4v1671452065749!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- .info_box>h2+p -->
+            <div class="info_box">
+                <h2>INFO</h2>
+                <p>Address - Piazza Castello, 20121 Milano MI, イタリア</p>
+                <p>Phone - <a href="tel:+09812345678">098-1234-5678</a></p>
+                <p>Open - 12:00 〜 22:00</p>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>F a Q</h2>
+            <div class="faq_box">
+                <!-- details>summary+p -->
+                <details>
+                    <summary>駐車場はありますか？</summary>
+                    <p>申し訳ありませんが、駐車場はございません。</p>
+                </details>
+                <details>
+                    <summary>貸し切りはできますか？</summary>
+                    <p>承っております。予約に関しては電話から飲み承っております。</p>
+                </details>
+                <details>
+                    <summary>クレジットカードは使えますか？</summary>
+                    <p>クレジットカードは各種使えます。</p>
+                </details>
+                <details>
+                    <summary>席だけ予約はできますか？</summary>
+                    <p>席だけのご予約もお待ちしております。</p>
+                </details>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Buon giorno All right reserved.</p>
+    </footer>
+</body>
+</html>
